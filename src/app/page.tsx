@@ -14,7 +14,7 @@ export default function Home() {
                     environments.
                 </p>
                 <a href="/contact-us"
-                   className="mt-8 inline-block rounded bg-blue-950 px-6 py-3 text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 sm:text-lg">
+                   className="mt-8 inline-block rounded bg-blue-950 px-6 py-3 text-white hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 sm:text-lg">
                     Learn More
                 </a>
             </div>

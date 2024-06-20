@@ -3,14 +3,24 @@
 import NavBar from "@/components/nav";
 import Footer from "@/components/footer";
 import { useForm, ValidationError } from '@formspree/react';
+import Link from "next/link";
 
 export default function Page() {
     const [state, handleSubmit] = useForm("xkgwwwel");
     if (state.succeeded) {
         return (
-            <main className="flex min-h-screen flex-col">
+            <main className="flex min-h-screen flex-col bg-gray-100 dark:bg-gray-800">
                 <NavBar page={"contact-us"}/>
-                <p className="text-xl font-semibold">Thanks for reaching out, someone will get back to you soon!</p>
+                <div className="flex flex-1 flex-col items-center justify-center p-10">
+
+                    <p className="text-xl font-semibold">Thanks for reaching out, someone will get back to you soon!</p>
+                    <Link href="/" passHref>
+                        <button
+                            className="mt-4 px-6 py-2 text-white bg-blue-950 hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded-md">
+                            Home
+                        </button>
+                    </Link>
+                </div>
                 <Footer/>
             </main>
         );
@@ -76,7 +86,7 @@ export default function Page() {
                             />
                         </div>
                         <button type="submit" disabled={state.submitting}
-                                className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                                className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-950 hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                             Submit
                         </button>
                     </form>
