@@ -1,6 +1,3 @@
-"use client";
-
-/*
 export default function Footer() {
     return (
         <footer
@@ -15,21 +12,5 @@ export default function Footer() {
                 </li>
             </ul>
         </footer>
-
     )
-}
-
- */
-import { Footer } from "flowbite-react";
-
-export default function PageFooter() {
-    return (
-        <Footer container>
-            <Footer.Copyright href="/" by="jakbytes™" year={2024} />
-            <Footer.LinkGroup>
-                <Footer.Link href="/about">About</Footer.Link>
-                <Footer.Link href="/contact-us">Contact</Footer.Link>
-            </Footer.LinkGroup>
-        </Footer>
-    );
 }
