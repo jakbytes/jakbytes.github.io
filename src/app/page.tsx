@@ -4,7 +4,8 @@ import Footer from "@/components/footer";
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col bg-gray-100 dark:bg-gray-800">
-            <NavBar page={"home"} />
+            <link rel="icon" href="/favicon.ico" sizes="any"/>
+            <NavBar page={"home"}/>
             <div className="flex flex-1 flex-col items-center justify-center p-12 lg:p-24">
                 <h1 className="text-3xl font-bold text-blue-950 dark:text-white sm:text-4xl lg:text-5xl xl:text-6xl">
                     Next-Generation Spatial Computing Apps and Games
