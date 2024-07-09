@@ -8,9 +8,9 @@ export default function Page() {
             <header className="bg-white py-8 px-6 shadow-md">
                 <h1 className="text-3xl font-semibold">Privacy Policy</h1>
                 <p className="mt-2 text-gray-600">
-                    This privacy policy applies to the VisiPuzzle app (hereby referred to as "Application") for devices
+                    {`This privacy policy applies to the VisiPuzzle app (hereby referred to as "Application") for devices
                     that was created by jakbytes (hereby referred to as "Service Provider") as a Commercial service.
-                    This service is intended for use "AS IS".
+                    This service is intended for use "AS IS".`}
                 </p>
             </header>
 
@@ -20,7 +20,7 @@ export default function Page() {
                     The Application collects information when you download and use it. This information may include:
                 </p>
                 <ul className="list-disc pl-8 mt-2 text-gray-600">
-                    <li>Your device's Internet Protocol address (e.g. IP address)</li>
+                    <li>{`Your device's Internet Protocol address (e.g. IP address)`}</li>
                     <li>The pages of the Application that you visit, the time and date of your visit, the time spent on
                         those pages
                     </li>
@@ -81,7 +81,7 @@ export default function Page() {
                     children under the age of 13.
                 </p>
                 <p className="mt-2 text-gray-600">
-                    The Service Provider does not knowingly collect personally identifiable information from children.
+                    {`The Service Provider does not knowingly collect personally identifiable information from children.
                     The Service Provider encourages all children to never submit any personally identifiable information
                     through the Application and/or Services. The Service Provider encourage parents and legal guardians
                     to monitor their children's Internet usage and to help enforce this Policy by instructing their
@@ -91,7 +91,7 @@ export default function Page() {
                     please contact the Service Provider (admin@jakbytes.com) so that they will be able to take the
                     necessary actions. You must also be at least 16 years of age to consent to the processing of your
                     personally identifiable information in your country (in some countries we may allow your parent or
-                    guardian to do so on your behalf).
+                    guardian to do so on your behalf).`}
                 </p>
             </section>
 
