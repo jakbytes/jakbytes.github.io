@@ -6,7 +6,7 @@ export default function Page() {
         <main className="flex flex-col min-h-screen bg-gray-100">
             <NavBar page={"about"} />
             <header className="bg-white py-8 px-6 shadow-md">
-                <h1 className="text-3xl font-semibold">Privacy Policy</h1>
+                <h1 className="text-3xl text-black font-semibold">Privacy Policy</h1>
                 <p className="mt-2 text-gray-600">
                     {`This privacy policy applies to the VisiPuzzle app (hereby referred to as "Application") for devices
                     that was created by jakbytes (hereby referred to as "Service Provider") as a Commercial service.
