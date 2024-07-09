@@ -15,7 +15,7 @@ export default function Page() {
             </header>
 
             <section className="p-6">
-                <h2 className="text-2xl font-semibold">Information Collection and Use</h2>
+                <h2 className="text-2xl text-black font-semibold">Information Collection and Use</h2>
                 <p className="mt-2 text-gray-600">
                     The Application collects information when you download and use it. This information may include:
                 </p>
@@ -37,7 +37,7 @@ export default function Page() {
             </section>
 
             <section className="p-6 bg-white mt-4">
-                <h2 className="text-2xl font-semibold">Third Party Access</h2>
+                <h2 className="text-2xl text-black font-semibold">Third Party Access</h2>
                 <p className="mt-2 text-gray-600">
                     Only aggregated, anonymized data is periodically transmitted to external services to aid the Service
                     Provider in improving the Application and their service. The Service Provider may share your
@@ -56,7 +56,7 @@ export default function Page() {
             </section>
 
             <section className="p-6 mt-4">
-                <h2 className="text-2xl font-semibold">Opt-Out Rights</h2>
+                <h2 className="text-2xl text-black font-semibold">Opt-Out Rights</h2>
                 <p className="mt-2 text-gray-600">
                     You can stop all collection of information by the Application easily by uninstalling it. You may use
                     the standard uninstall processes as may be available as part of your device or via the
@@ -65,7 +65,7 @@ export default function Page() {
             </section>
 
             <section className="p-6 bg-white mt-4">
-                <h2 className="text-2xl font-semibold">Data Retention Policy</h2>
+                <h2 className="text-2xl text-black font-semibold">Data Retention Policy</h2>
                 <p className="mt-2 text-gray-600">
                     The Service Provider will retain User Provided data for as long as you use the Application and for a
                     reasonable time thereafter. If you would like them to delete User Provided Data that you have provided
@@ -75,7 +75,7 @@ export default function Page() {
             </section>
 
             <section className="p-6 mt-4">
-                <h2 className="text-2xl font-semibold">Children</h2>
+                <h2 className="text-2xl text-black font-semibold">Children</h2>
                 <p className="mt-2 text-gray-600">
                     The Service Provider does not use the Application to knowingly solicit data from or market to
                     children under the age of 13.
@@ -96,7 +96,7 @@ export default function Page() {
             </section>
 
             <section className="p-6 bg-white mt-4">
-                <h2 className="text-2xl font-semibold">Security</h2>
+                <h2 className="text-2xl text-black font-semibold">Security</h2>
                 <p className="mt-2 text-gray-600">
                     The Service Provider is concerned about safeguarding the confidentiality of your information. The
                     Service Provider provides physical, electronic, and procedural safeguards to protect information the
@@ -105,7 +105,7 @@ export default function Page() {
             </section>
 
             <section className="p-6 mt-4">
-                <h2 className="text-2xl font-semibold">Changes</h2>
+                <h2 className="text-2xl text-black font-semibold">Changes</h2>
                 <p className="mt-2 text-gray-600">
                     This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify
                     you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are
@@ -118,7 +118,7 @@ export default function Page() {
             </section>
 
             <section className="p-6 bg-white mt-4">
-                <h2 className="text-2xl font-semibold">Your Consent</h2>
+                <h2 className="text-2xl text-black font-semibold">Your Consent</h2>
                 <p className="mt-2 text-gray-600">
                     By using the Application, you are consenting to the processing of your information as set forth in
                     this Privacy Policy now and as amended by us.
@@ -126,7 +126,7 @@ export default function Page() {
             </section>
 
             <section className="p-6 mt-4">
-                <h2 className="text-2xl font-semibold">Contact Us</h2>
+                <h2 className="text-2xl text-black font-semibold">Contact Us</h2>
                 <p className="mt-2 text-gray-600">
                     If you have any questions regarding privacy while using the Application, or have questions about the
                     practices, please contact the Service Provider via email at <a
