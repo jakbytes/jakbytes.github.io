@@ -16,7 +16,7 @@ export default function NavBar({ page }: { page: string }) {
                 <Navbar.Link href="/" active={page == "home"}>
                     Home
                 </Navbar.Link>
-                <Navbar.Link href="/apps" active={page == "our-apps"}>
+                <Navbar.Link href="/our-apps" active={page == "our-apps"}>
                     Apps
                 </Navbar.Link>
                 {/*
