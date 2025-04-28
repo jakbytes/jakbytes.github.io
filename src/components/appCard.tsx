@@ -13,15 +13,23 @@ interface AppCardProps {
 export default function AppCard({ image, title, description, link }: AppCardProps) {
   return (
     <Card
-      className="max-w-sm"
+      className="w-full h-full rounded-xl"
       renderImage={() => (
-        <Image width={500} height={500} src={image} alt="image" />
+        <div className="overflow-hidden">
+          <Image 
+            width={500} 
+            height={500} 
+            src={image} 
+            alt={`${title} image`}
+            className="w-full object-cover transition-transform duration-300 hover:scale-105 rounded-t-xl" 
+          />
+        </div>
       )}
     >
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         {title}
       </h5>
-      <p className="font-normal text-gray-700 dark:text-gray-400">
+      <p className="font-normal text-gray-700 dark:text-gray-400 mb-4 text-md">
         {description}
       </p>
       <div className="items-center justify-center space-y-4 sm:flex sm:space-x-4 sm:space-y-0">
@@ -45,9 +53,9 @@ export default function AppCard({ image, title, description, link }: AppCardProp
             />
           </svg>
           <div className="text-left">
-            <div className="mb-1 text-xs">Download on the</div>
-            <div className="-mt-1 font-sans text-sm font-semibold">
-            App Store
+            <div className="mb-1 text-sm">Download on the</div>
+            <div className="-mt-1 font-sans text-md font-semibold">
+              App Store
             </div>
           </div>
         </a>

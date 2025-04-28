@@ -8,8 +8,8 @@ export default function NavBar({ page }: { page: string }) {
     return (
         <Navbar fluid rounded>
             <Navbar.Brand as={Link} href="https://jakbytes.com">
-                <Image src="/logo.png" alt="Flowbite Logo" height={50} width={50}/>
-                <span className="self-center ml-3 whitespace-nowrap text-xl font-semibold dark:text-white">jakbytes</span>
+                <Image src="/logo.png" alt="Flowbite Logo" className="rounded-full" height={50} width={50}/>
+                <span className="self-center ml-3 whitespace-nowrap text-xl font-semibold dark:text-white">Jakbytes</span>
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>

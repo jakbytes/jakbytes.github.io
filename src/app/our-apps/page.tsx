@@ -23,33 +23,35 @@ const apps = [
 
 export default function Page() {
     return (
-      <main className="flex min-h-screen flex-col w-full">
+      <main className="flex min-h-screen flex-col">
         <NavBar page={'apps'} />
-        <div className="flex flex-col flex-1 p-6 sm:p-10 lg:p-20 h-full w-full">
+        <div className="flex flex-col flex-1 p-4 sm:p-8 lg:p-16 h-full">
           {/* Title section */}
           <div className="text-center mb-8">
             <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
               Our Apps
             </h1>
-            <p className="text-md text-gray-600 dark:text-gray-300 mt-2">
+            <p className="text-lg text-gray-600 dark:text-gray-300 mt-2">
               Check out our apps below
             </p>
           </div>
           
           {/* Cards section */}
-          <div className="w-full max-w-screen-xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="w-full max-w-6xl mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
               {apps.map((app) => (
                 <div
                   key={app.id}
-                  className="mx-auto px-4"
+                  className="w-full mx-auto" 
                 >
-                  <AppCard
-                    image={app.image}
-                    title={app.title}
-                    description={app.description}
-                    link={app.link}
-                  />
+                  <div className="max-w-md mx-auto md:mx-0 md:max-w-full">
+                    <AppCard
+                      image={app.image}
+                      title={app.title}
+                      description={app.description}
+                      link={app.link}
+                    />
+                  </div>
                 </div>
               ))}
             </div>
