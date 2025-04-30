@@ -1,5 +1,6 @@
 import NavBar from "@/components/nav";
 import Footer from "@/components/footer";
+import TileCard from "@/components/smallCard";
 
 export default function Home() {
   return (
@@ -45,14 +46,8 @@ export default function Home() {
               Discover our portfolio of innovative games that blend reality and virtual worlds.
             </p>
             <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-3 max-w-4xl mx-auto">
-              <div className="bg-white dark:bg-gray-600 p-3 rounded-lg shadow-sm">
-                <h3 className="font-semibold text-sm md:text-base text-blue-950 dark:text-white">Game Dev</h3>
-                <p className="text-xs md:text-sm text-gray-600 dark:text-gray-300 mt-1">Custom experiences for spatial computing</p>
-              </div>
-              <div className="bg-white dark:bg-gray-600 p-3 rounded-lg shadow-sm">
-                <h3 className="font-semibold text-sm md:text-base text-blue-950 dark:text-white">Spatial Design</h3>
-                <p className="text-xs md:text-sm text-gray-600 dark:text-gray-300 mt-1">Optimized immersive environments</p>
-              </div>
+              <TileCard title="Game dev" description="Custom experiences for spatial computing" />
+              <TileCard title="Spatial Design" description="Apps designed for immersive spatial environments" />
             </div>
             <div className="mt-4 text-center">
               <a
