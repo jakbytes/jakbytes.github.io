@@ -1,6 +1,8 @@
 import NavBar from "@/components/nav";
 import Footer from "@/components/footer";
 import TileCard from "@/components/smallCard";
+import { FaBluesky, FaXTwitter, FaLinkedin  } from "react-icons/fa6";
+
 
 export default function Home() {
   return (
@@ -28,7 +30,7 @@ export default function Home() {
             </p>
             <a
               href="/our-apps"
-              className="mt-10 inline-block rounded-md bg-buttons px-4 py-2 text-sm w-1/3
+              className="mt-10 inline-block rounded-md bg-buttons px-4 py-2 text-sm w-1/3 
                md:text-base text-white hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
             >
               Learn More

@@ -18,7 +18,7 @@ const aboutUsCards = [
         id: 3,
         title: "Our Devs",
         description: "We are a team of passionate developers and designers focused on creating immersive experiences." +
-        "We met in high school at Calvert Hall College and have been working to create amazing apps over the last few years.",    
+        "We met in high school at Calvert Hall College and have been working to create amazing apps over the last few years. Are you actually reading this? lmao",    
     },
 ];
 
@@ -59,7 +59,7 @@ const renderSlideCards = () => {
 
 export default function Page() {
     return (
-    <main className="flex h-screen flex-col bg-secondary overflow-hidden font-main">
+    <main className="flex md:h-screen flex-col bg-secondary font-main">
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <NavBar page={'about'} />
       
