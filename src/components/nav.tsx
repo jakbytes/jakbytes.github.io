@@ -6,25 +6,23 @@ import Image from "next/image";
 
 export default function NavBar({ page }: { page: string }) {
     return (
-        <Navbar fluid rounded>
+        <Navbar fluid rounded className=" bg-primary backdrop-blur-lg font-main">
             <Navbar.Brand as={Link} href="https://jakbytes.com">
                 <Image src="/logo.png" alt="Flowbite Logo" className="rounded-full" height={50} width={50}/>
-                <span className="self-center ml-3 whitespace-nowrap text-xl font-semibold dark:text-white">Jakbytes</span>
+                <span className="self-center ml-3 whitespace-nowrap text-xl font-semibold text-text_primary">Jakbytes</span>
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
-                <Navbar.Link href="/" active={page == "home"}>
+                <Navbar.Link href="/" active={page == "home"} className="text-text_primary">
                     Home
                 </Navbar.Link>
-                <Navbar.Link href="/our-apps" active={page == "our-apps"}>
+                <Navbar.Link href="/our-apps" active={page == "our-apps"} className="text-text_primary">
                     Apps
                 </Navbar.Link>
-                {/*
-                <Navbar.Link as={Link} href="/about" active={page == "about"}>
+                <Navbar.Link as={Link} href="/about" active={page == "about"} className="text-text_primary">
                     About
                 </Navbar.Link>
-                */}
-                <Navbar.Link href="/contact-us" active={page == "contact-us"}>Contact</Navbar.Link>
+                <Navbar.Link href="/contact-us" active={page == "contact-us"} className="text-text_primary">Contact</Navbar.Link>
             </Navbar.Collapse>
         </Navbar>
     );

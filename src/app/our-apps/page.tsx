@@ -23,8 +23,8 @@ const apps = [
 
 export default function Page() {
     return (
-      <main className="flex min-h-screen flex-col">
-        <NavBar page={'apps'} />
+      <main className="flex min-h-screen flex-col font-main bg-our-gradient">
+        <NavBar page={'our-apps'} />
         <div className="flex flex-col flex-1 p-4 sm:p-8 lg:p-16 h-full">
           {/* Title section */}
           <div className="text-center mb-8">
