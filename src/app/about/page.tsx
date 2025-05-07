@@ -20,7 +20,7 @@ const aboutUsCards = [
       title: "Our Apps",
       description: "We are currently working on a few apps for the Apple Vision Pro, including VisiPuzzle and Scrolling Hero." + 
       "We are also working on a few other apps that will be released in the future. Stay tuned for more updates! We are working" + 
-      " to leverage the technology to build succesful apps that will have growth potential as less costly devices are released.",
+      " to leverage the technology to build successful apps that will have growth potential as less costly devices are released.",
   },
 ];
 
