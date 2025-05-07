@@ -57,6 +57,7 @@ body {
   --color-buttons-hover: #3B82F6;
   --color-original-bg: #F8FAFC;
   --color-original-text: #111827;
+  --color-primary-100: #002bb0;
   
   --gradient-radial: radial-gradient(var(--tw-gradient-stops));
   --gradient-conic: conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops));
