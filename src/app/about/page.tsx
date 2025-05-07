@@ -11,15 +11,17 @@ const aboutUsCards = [
     },
     {
         id: 2,
-        title: "Our Values",
-        description: "Men of Intellect, Men of Faith, Men of Integrity",
-    },
-    {
-        id: 3,
         title: "Our Devs",
         description: "We are a team of passionate developers and designers focused on creating immersive experiences." +
         "We met in high school at Calvert Hall College and have been working to create amazing apps over the last few years. Are you actually reading this? lmao",    
     },
+    {
+      id: 3,
+      title: "Our Apps",
+      description: "We are currently working on a few apps for the Apple Vision Pro, including VisiPuzzle and Scrolling Hero." + 
+      "We are also working on a few other apps that will be released in the future. Stay tuned for more updates! We are working" + 
+      " to leverage the technology to build succesful apps that will have growth potential as less costly devices are released.",
+  },
 ];
 
 const renderSlideCards = () => {
