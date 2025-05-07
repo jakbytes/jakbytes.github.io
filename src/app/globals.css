@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../../.flowbite-react/class-list.json";
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -11,11 +11,11 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@layer utilities {
+/* @layer utilities {
   .bg-our-gradient {
     @apply bg-gradient-to-b from-secondary to-slate-300;
   }
-}
+} */
 
 
 @media (prefers-color-scheme: dark) {
@@ -40,4 +40,26 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+@theme {
+  --font-sans: "Helvetica", "Arial", "sans-serif";
+  --font-main: "Roboto", "sans-serif";
+  
+  --breakpoint-3xl: 1920px;
+  
+  --color-primary: #000d3c;
+  --color-secondary: #E2E8F0;
+  --color-text-primary: #F8FAFC;
+  --color-text-secondary: #CBD5E1;
+  --color-header-text: #FFFFFF;
+  --color-card-bg: #FFFFFF;
+  --color-buttons: #1641f6;
+  --color-buttons-hover: #3B82F6;
+  --color-original-bg: #F8FAFC;
+  --color-original-text: #111827;
+  
+  --gradient-radial: radial-gradient(var(--tw-gradient-stops));
+  --gradient-conic: conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops));
 }
