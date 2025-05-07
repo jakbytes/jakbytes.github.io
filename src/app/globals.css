@@ -45,9 +45,7 @@ body {
 
 @theme {
   --font-sans: "Helvetica", "Arial", "sans-serif";
-  --font-main: "Roboto", "sans-serif";
-  
-  --breakpoint-3xl: 1920px;
+  --font-main: "Roboto", sans-serif;
   
   --color-primary: #000d3c;
   --color-secondary: #E2E8F0;
