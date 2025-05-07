@@ -5,8 +5,8 @@ import { Navbar, NavbarBrand, NavbarLink, NavbarCollapse, NavbarToggle} from "fl
 import Image from "next/image";
 
 
-const activeLinkClass = "text-buttons text-lg font-bold bg-blue-100 hover:bg-primary-100 hover:bg-opacity-50 focus:ring-4 focus:ring-blue-300";
-const inactiveLinkClass = "text-text-primary hover:bg-blue-100 focus:ring-4 focus:ring-blue-300 text-lg";
+const activeLinkClass = "text-buttons text-lg font-bold bg-blue-100 hover:bg-primary-100 hover:bg-opacity-50";
+const inactiveLinkClass = "text-text-primary hover:bg-blue-100 text-lg";
 
 export default function NavBar({ page }: { page: string }) {
     return (

@@ -9,9 +9,9 @@ export default function Page() {
     const [state, handleSubmit] = useForm("xkgwwwel");
     if (state.succeeded) {
         return (
-            <main className="flex min-h-screen flex-col bg-our-gradient font-main">
+            <main className="flex min-h-screen flex-col font-main">
                 <NavBar page={"contact-us"}/>
-                <div className="flex flex-1 flex-col items-center justify-center p-10">
+                <div className="flex flex-1 flex-col items-center justify-center p-10 bg-our-gradient">
 
                     <p className="text-xl font-semibold">Thanks for reaching out, someone will get back to you soon!</p>
                     <Link href="/" passHref>
@@ -30,7 +30,7 @@ export default function Page() {
             <NavBar page={"contact-us"}/>
             <div className="flex flex-1 items-center justify-center p-10">
                 <div
-                    className="flex flex-col sm:flex-row flex-1 w-full lg:p-20 divide-y sm:divide-y-0 sm:divide-x divide-gray-200 dark:divide-gray-700">
+                    className="flex bg-white rounded-3xl flex-col sm:flex-row flex-1 w-full lg:p-20 divide-y sm:divide-y-0 sm:divide-x divide-gray-300 dark:divide-gray-700">
                     <div className="sm:pr-10 pb-6 sm:pb-0 space-y-4 text-center sm:text-left">
                         <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Contact us</h1>
                         <p className="text-md text-gray-600 dark:text-gray-300">
@@ -40,26 +40,26 @@ export default function Page() {
                     <form onSubmit={handleSubmit} className="sm:pl-10 pt-6 sm:pt-0 flex-1 space-y-6">
                         <div>
                             <label htmlFor="name"
-                                   className="block text-sm font-medium text-gray-700 dark:text-gray-200">
+                                   className="block text-md font-medium text-gray-700 dark:text-gray-200">
                                 Name
                             </label>
                             <input
                                 id="name"
                                 type="text"
                                 name="name"
-                                className="mt-1 block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:text-white"
+                                className="mt-1 bg-secondary block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:text-white"
                             />
                         </div>
                         <div>
                             <label htmlFor="email"
-                                   className="block text-sm font-medium text-gray-700 dark:text-gray-200">
+                                   className="block text-md font-medium text-gray-700 dark:text-gray-200">
                                 Email
                             </label>
                             <input
                                 id="email"
                                 type="email"
                                 name="email"
-                                className="mt-1 block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:text-white"
+                                className="mt-1 bg-secondary block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:text-white"
                             />
                             <ValidationError
                                 prefix="Email"
@@ -70,13 +70,13 @@ export default function Page() {
                         </div>
                         <div>
                             <label htmlFor="message"
-                                   className="block text-sm font-medium text-gray-700 dark:text-gray-200">
+                                   className="block text-md font-medium text-gray-700 dark:text-gray-200">
                                 What can we help you with?
                             </label>
                             <textarea
                                 id="message"
                                 name="message"
-                                className="mt-1 block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:text-white"
+                                className="mt-1 bg-secondary block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:text-white"
                             />
                             <ValidationError
                                 prefix="Message"

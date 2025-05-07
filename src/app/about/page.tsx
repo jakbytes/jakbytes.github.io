@@ -40,7 +40,7 @@ export default function Page() {
       
       <div className="flex flex-col flex-1 overflow-hidden w-full md:w-3/4 mx-auto">
         {/* Top half section - full column on mobile */}
-        <div className="h-1/4 flex flex-col bg-[url('/chc3.jpg')] bg-cover bg-center bg-no-repeat rounded-2xl mx-6 mt-6 shadow-xl shadow">
+        <div className="h-1/4 flex flex-col bg-[url('/chc3.jpg')] bg-cover bg-center bg-no-repeat rounded-2xl mx-6 mt-6 shadow-xl">
           <div className="flex flex-col h-full p-4 md:p-6 justify-end">
             <h1 className="text-6xl font-bold text-text-primary">
               About Us
