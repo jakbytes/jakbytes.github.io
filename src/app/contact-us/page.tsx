@@ -9,7 +9,7 @@ export default function Page() {
     const [state, handleSubmit] = useForm("xkgwwwel");
     if (state.succeeded) {
         return (
-            <main className="flex min-h-screen flex-col bg-gray-100 dark:bg-gray-800">
+            <main className="flex min-h-screen flex-col bg-our-gradient font-main">
                 <NavBar page={"contact-us"}/>
                 <div className="flex flex-1 flex-col items-center justify-center p-10">
 
@@ -26,7 +26,7 @@ export default function Page() {
         );
     }
     return (
-        <main className="flex min-h-screen flex-col bg-gray-100 dark:bg-gray-800">
+        <main className="flex min-h-screen flex-col bg-our-gradient font-main">
             <NavBar page={"contact-us"}/>
             <div className="flex flex-1 items-center justify-center p-10">
                 <div
