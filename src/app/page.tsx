@@ -53,7 +53,7 @@ export default function Home() {
             </div>
             <div className="mt-4 text-center">
               <a
-                href="/games"
+                href="/our-apps"
                 className="inline-block rounded mt-10 bg-blue-950 px-4 py-2 text-sm md:text-base text-white hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
               >
                 View Our Apps
