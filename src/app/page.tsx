@@ -21,10 +21,10 @@ export default function Home() {
             />
           </div>
           <div className="flex flex-col justify-center flex-1 p-4 md:p-6">
-            <h2 className="text-xl md:text-3xl font-bold text-text_primary ">
+            <h2 className="text-xl md:text-3xl font-bold text-text-primary ">
               Next-Generation Spatial Computing Apps
             </h2>
-            <p className="mt-2 text-sm md:text-lg  text-text_secondary">
+            <p className="mt-2 text-sm md:text-lg  text-text-secondary">
               Explore the cutting-edge of spatial computing technology and
               harness the power of immersive environments.
             </p>
