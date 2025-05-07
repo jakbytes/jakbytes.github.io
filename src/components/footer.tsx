@@ -17,7 +17,7 @@ export default function Footer() {
                         <a href="https://bsky.app/profile/jakbytes.bsky.social" className=" text-center"><FaBluesky /> </a>
                     </li>
                     <li className="mx-1 md:mx-6 text-lg md:text-2xl">
-                        <a href="https://twitter.com" className=" text-center"><FaXTwitter /></a>
+                        <a href="https://x.com/jakbytes" className=" text-center"><FaXTwitter /></a>
                     </li>
                     {/* <li className="mx-1 md:mx-6 text-2xl">
                         <a href="https://linkedin.com" className="text-center"><FaLinkedin /></a>
