@@ -13,7 +13,7 @@ export default function NavBar({ page }: { page: string }) {
         <Navbar fluid rounded className=" bg-primary backdrop-blur-lg font-main shadow-xl">
             <NavbarBrand as={Link} href="/">
                 <Image src="/jakbytes_logo_notext.png" alt="Flowbite Logo" className="rounded-full" height={60} width={60}/>
-                <span className="self-center bg- ml-3 whitespace-nowrap text-xl font-semibold text-text-primary">Jakbytes</span>
+                <span className="self-center ml-3 whitespace-nowrap text-xl font-semibold text-text-primary">Jakbytes</span>
             </NavbarBrand>
             <NavbarToggle />
             <NavbarCollapse>
