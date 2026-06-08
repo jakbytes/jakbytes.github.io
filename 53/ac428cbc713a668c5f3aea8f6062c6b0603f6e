@@ -1,0 +1,19 @@
+src/app/privacy-policy-flickem-football/page.tsx
+  s_a13bfcfb9a4e6d::t_4ef83de199f46c 1-139
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "53ac428cbc713a668c5f3aea8f6062c6b0603f6e",
+  "prompts": {},
+  "sessions": {
+    "s_a13bfcfb9a4e6d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8b3ba01c-ee7d-42fd-8480-74d1eb98c339",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Kring <jacob.alan.kring@gmail.com>"
+    }
+  }
+}
