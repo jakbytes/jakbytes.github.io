@@ -1,31 +1,34 @@
-import { FaBluesky, FaXTwitter, FaLinkedin  } from "react-icons/fa6";
+import { FaBluesky, FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
     return (
-        <footer
-            className="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 font-main shadow flex items-center justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
-            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025   <a href="https://jakbytes.com/" className="hover:underline">jakbytes™</a>.
-            <p className="hidden md:inline pl-2">
-                 All Rights Reserved.
-            </p>
-                 </span>
-            <ul className="flex flex-wrap items-center md:mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-                {/*<li>
-                    <a href="#" className="hover:underline me-4 md:me-6">About</a>
-                </li>*/}
-                    <li className="mx-1 md:mx-6 text-lg md:text-2xl">
-                        <a href="https://bsky.app/profile/jakbytes.bsky.social" className=" text-center"><FaBluesky /> </a>
+        <footer className="mt-auto w-full border-t border-white/10 bg-[#110c08] font-main">
+            <div className="flex w-full flex-col items-center gap-3 px-4 py-5 sm:flex-row sm:justify-between sm:px-6">
+                <span className="text-sm text-white/55">
+                    © 2025{" "}
+                    <a href="https://jakbytes.com/" className="text-white/80 transition-colors hover:text-white hover:underline">
+                        jakbytes™
+                    </a>
+                    <span className="hidden md:inline"> · All Rights Reserved.</span>
+                </span>
+                <ul className="flex flex-wrap items-center gap-5 text-sm font-medium text-white/55">
+                    <li className="text-xl transition-colors hover:text-white">
+                        <a href="https://bsky.app/profile/jakbytes.bsky.social" aria-label="Bluesky">
+                            <FaBluesky />
+                        </a>
                     </li>
-                    <li className="mx-1 md:mx-6 text-lg md:text-2xl">
-                        <a href="https://x.com/jakbytes" className=" text-center"><FaXTwitter /></a>
+                    <li className="text-xl transition-colors hover:text-white">
+                        <a href="https://x.com/jakbytes" aria-label="X (Twitter)">
+                            <FaXTwitter />
+                        </a>
                     </li>
-                    {/* <li className="mx-1 md:mx-6 text-2xl">
-                        <a href="https://linkedin.com" className="text-center"><FaLinkedin /></a>
-                    </li> */}
-                    <li className="mx-1 md:mx-6">
-                        <a href="/contact-us" className="hover:underline">Contact</a>
+                    <li className="transition-colors hover:text-white">
+                        <a href="/contact-us" className="hover:underline">
+                            Contact
+                        </a>
                     </li>
-            </ul>
+                </ul>
+            </div>
         </footer>
-    )
+    );
 }

@@ -23,10 +23,10 @@ export default function SlideCard({ title, description, style }: SlideCardProps)
       style={style}
       className={`transition-all duration-700 ease-out transform
         ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}
-        bg-primary text-white p-6 rounded-xl shadow-xl mb-10 w-full`}
+        w-full rounded-xl border border-white/10 bg-white/[0.04] p-6 text-white shadow-lg backdrop-blur-md`}
     >
-      <h2 className="text-2xl font-bold">{title}</h2>
-      <p>{description}</p>
+      <h2 className="font-display text-xl font-bold md:text-2xl">{title}</h2>
+      <p className="mt-2 text-white/70">{description}</p>
     </div>
   );
 }

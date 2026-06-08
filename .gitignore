@@ -13,6 +13,9 @@
 /.next/
 /out/
 
+# flowbite-react (generated)
+/.flowbite-react/
+
 # production
 /build
 
