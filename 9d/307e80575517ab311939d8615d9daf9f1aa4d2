@@ -1,0 +1,60 @@
+.gitignore
+  s_a13bfcfb9a4e6d::t_6235b6f2a90977 16-18
+src/app/privacy-policy-flickem-football/page.tsx
+  s_a13bfcfb9a4e6d::t_7e7b41477802a8 72,133
+src/app/privacy-policy-visipuzzle/page.tsx
+  s_a13bfcfb9a4e6d::t_36651f3ab8b59e 72,133
+src/components/smallCard.tsx
+  s_a13bfcfb9a4e6d::t_7fbac7e6a32ee2 10-13,15
+src/app/our-apps/page.tsx
+  s_a13bfcfb9a4e6d::t_b899eb06aa013d 10,20-26,30-52,55-59
+src/components/appCard.tsx
+  s_a13bfcfb9a4e6d::t_e9e6c0566e00b6 7-8,11,13-20,22-45,47-62,64-65,67,69
+src/app/globals.css
+  s_a13bfcfb9a4e6d::t_5441505bc3940a 30-33,36-40
+  s_a13bfcfb9a4e6d::t_69d52bfb6ed8a4 21-29,34-35,41-43,50-52,54,59-62,64-86,89-97,99-119
+  s_a13bfcfb9a4e6d::t_9b4b02bf938166 53,55-58,63
+src/app/contact-us/page.tsx
+  s_a13bfcfb9a4e6d::t_fc38e90d3de347 8-10,15,17,21,31,33,35,37-38,42,44,47,50,53,58,62,65,70,74
+  s_a13bfcfb9a4e6d::t_fa02dcdc7f11da 36
+src/app/page.tsx
+  s_a13bfcfb9a4e6d::t_d15e437df0fe86 53-58
+  s_a13bfcfb9a4e6d::t_4c51befe3e88ca 82
+  s_a13bfcfb9a4e6d::t_ab3929e52ea62a 67
+  s_a13bfcfb9a4e6d::t_e88667b7abcf2f 75
+  s_a13bfcfb9a4e6d::t_1d340d0fdab4c8 30
+  s_a13bfcfb9a4e6d::t_6e06beda5baf94 7
+  s_a13bfcfb9a4e6d::t_cb8ee1fb2007b7 21
+  s_a13bfcfb9a4e6d::t_5b626a9cf87ad4 9-18,20,22-29,31,33-36,38-52,59-66,68-74,78-79,84-85,89,91-92,94
+  s_a13bfcfb9a4e6d::t_8585cea414653a 37
+src/app/layout.tsx
+  s_a13bfcfb9a4e6d::t_ba27f7f677fb78 3,6-17,30,32
+src/components/footer.tsx
+  s_a13bfcfb9a4e6d::t_05af6a15a6e077 5
+  s_a13bfcfb9a4e6d::t_1ba251b536d6cb 1,7-18,20-23,25-28,30-31,33
+  s_a13bfcfb9a4e6d::t_af3a4a28d97ba9 6
+src/components/nav.tsx
+  s_a13bfcfb9a4e6d::t_71e878bc81dab7 4,7,9,14-16,18,20-29,31,42-44,48
+  s_a13bfcfb9a4e6d::t_b3fd91f6bd2c52 17
+  s_a13bfcfb9a4e6d::t_b77ba7f90b8580 8,10
+src/components/slideCard.tsx
+  s_a13bfcfb9a4e6d::t_d97bfac99e33ba 26,28-29
+src/app/about/page.tsx
+  s_a13bfcfb9a4e6d::t_b6b8854172b9e1 37,40-47,50,55-58,61-62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "9d307e80575517ab311939d8615d9daf9f1aa4d2",
+  "prompts": {},
+  "sessions": {
+    "s_a13bfcfb9a4e6d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8b3ba01c-ee7d-42fd-8480-74d1eb98c339",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Kring <jacob.alan.kring@gmail.com>"
+    }
+  }
+}
