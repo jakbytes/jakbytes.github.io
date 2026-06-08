@@ -69,7 +69,7 @@ export default function Page() {
                 <p className="mt-2 text-gray-600">
                     The Service Provider will retain User Provided data for as long as you use the Application and for a
                     reasonable time thereafter. If you would like them to delete User Provided Data that you have provided
-                    via the Application, please contact them at <a href="mailto:admin@jakbytes.com" className="text-blue-500 hover:underline">admin@jakbytes.com</a> and they will respond in a reasonable
+                    via the Application, please contact them at <a href="mailto:admin@jakbytes.com" className="text-amber-600 hover:underline">admin@jakbytes.com</a> and they will respond in a reasonable
                     time.
                 </p>
             </section>
@@ -130,7 +130,7 @@ export default function Page() {
                 <p className="mt-2 text-gray-600">
                     If you have any questions regarding privacy while using the Application, or have questions about the
                     practices, please contact the Service Provider via email at <a
-                    href="mailto:admin@jakbytes.com" className="text-blue-500 hover:underline">admin@jakbytes.com</a>.
+                    href="mailto:admin@jakbytes.com" className="text-amber-600 hover:underline">admin@jakbytes.com</a>.
                 </p>
             </section>
             <Footer />

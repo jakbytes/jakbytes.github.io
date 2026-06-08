@@ -34,38 +34,32 @@ const renderSlideCards = () => {
 
 export default function Page() {
     return (
-    <main className="flex md:h-screen flex-col bg-secondary font-main">
+    <main className="flex min-h-screen flex-col bg-[#0b0806] font-main text-white">
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <NavBar page={'about'} />
-      
-      <div className="flex flex-col flex-1 overflow-hidden w-full md:w-3/4 mx-auto">
-        {/* Top half section - full column on mobile */}
-        <div className="h-1/4 flex flex-col bg-[url('/chc3.jpg')] bg-cover bg-center bg-no-repeat rounded-2xl mx-6 mt-6 shadow-xl">
-          <div className="flex flex-col h-full p-4 md:p-6 justify-end">
-            <h1 className="text-6xl font-bold text-text-primary">
+
+      <div className="mx-auto w-full max-w-5xl flex-1 px-6 py-10">
+        {/* Hero banner */}
+        <div className="relative overflow-hidden rounded-2xl border border-white/10 shadow-xl">
+          <div className="absolute inset-0 bg-[url('/chc3.jpg')] bg-cover bg-center" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0b0806] via-[#0b0806]/70 to-transparent" />
+          <div className="relative flex min-h-[220px] flex-col justify-end p-6 md:min-h-[280px] md:p-8">
+            <h1 className="font-display text-4xl font-bold text-white md:text-6xl">
               About Us
             </h1>
-            <p className="text-lg text-text-secondary dark:text-gray-300 mt-2">
+            <p className="mt-2 text-lg text-white/70">
               Learn more about us and our goals
             </p>
           </div>
         </div>
-        
-        {/* Bottom half section */}
-        <div className="h-1/2 bg-secondary">
-          <div className="flex flex-col justify-center h-full w-full p-4 md:p-6 ">
-          <div className="w-full">
-            {renderSlideCards()}
-          </div>
-          </div>
+
+        {/* Cards */}
+        <div className="mt-8 space-y-5">
+          {renderSlideCards()}
         </div>
       </div>
-        
-        {/* Footer */}
-      
-      <div className="flex-shrink-0">
-        <Footer />
-      </div>
+
+      <Footer />
     </main>
   )
 }
